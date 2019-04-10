@@ -1,5 +1,7 @@
 body{
+	background: #ccc;
 	font-family: arial;
+	margin:0;
 }
 
 .g5_divider{
