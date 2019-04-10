@@ -1,4 +1,50 @@
 body{
-	background: #ccc;
 	font-family: arial;
+}
+
+.g5_divider{
+	background-color: cyan ;
+}
+
+.g5_title{
+	color: darkslateblue;
+	text-align: center;
+}
+
+.g5_form_reserva label{
+	font-weight: bold;
+	padding: 1em;
+}
+
+.g5_form_reserva label,.g5_form_reserva input{
+	margin: 14px 0px;
+
+}
+
+.g5_form_reserva input{
+	padding: 6px;
+}
+
+.g5_form_reserva select{
+	padding: 6px;
+}
+
+.g5_form_reserva button{
+	padding: 12px;
+	background-color: darkkhaki;
+}
+
+.g5_calendario, th, td {
+	border: 1px solid black;
+	padding: 18px;
+	text-align: center;
+}
+
+.g5_fecha_elegida{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+.g5_title_calendario{
+	background-color: bisque;
 }
