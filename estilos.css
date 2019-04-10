@@ -3,6 +3,7 @@
 body{
 	background: #ccc;
 	font-family: arial;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 }
 <<<<<<< HEAD
@@ -540,6 +541,74 @@ footer h5{
 =======
 }
 >>>>>>> 53380bffe69f67996c741e0b2a4840f44529f2bd
+<<<<<<< Updated upstream
 >>>>>>> 71e54854a150e1e0e6877d2be9adf445b9406c29
+<<<<<<< Updated upstream
 >>>>>>> abb9c4763e2aeb7aaa70090c14af35681275fb61
+<<<<<<< Updated upstream
 >>>>>>> 9121c457ebe27c811f915663acdbc41107c1e842
+=======
+=======
+=======
+=======
+}
+#hederG4
+{
+	height: 200px;
+	width: 1000px;
+	display:inline-block;
+	margin-left: 8em;
+	background: -webkit-linear-gradient(90deg, yellow 10%, orange 90%);
+	
+}
+
+#logoG4
+{
+	width: 220px;
+	height: 200px;
+	float: left;
+
+}
+#contactosG4
+{
+	width: 750px;
+	height: 120px;
+	text-align: center;
+	float: right;
+	margin-top: 2em;
+	font-size: 3em;
+}
+.formularioG4
+{
+	width: 600px;
+	height: 350px;
+	background-color:#1d1d1d;
+	color: #fff;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+
+}
+label
+{
+	display: block;
+}
+#mapaG4
+{
+	margin-left: 20em;
+	margin-top: 3em;
+
+
+}
+#presentacionG4
+{
+	width: 1000px;
+	display:inline-block;
+
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
