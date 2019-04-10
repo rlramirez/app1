@@ -2,3 +2,189 @@ body{
 	background: #ccc;
 	font-family: arial;
 }
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.g2_empleado_body{
+  margin: 0;
+  padding: 0;
+  background-image: url("HNCK0360.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+
+.g2_empleado_titulo_car{
+   float: left; 
+   font-family: 'Charm', cursive;
+   font-size: 34px;
+ 
+}
+.g2_empleado_usuario_p{
+    
+    float: right;
+    margin-top: 10px;
+    font-size: 25px;
+     font-family: 'Charm', cursive;
+    
+    
+}
+
+.g2_empleado_titulo{
+    
+    display: inline-block;
+    position: relative;
+    font-size: 2.5em;
+    left: 42%;
+    font-family: 'Charm', cursive;
+    color: #ffff;
+    
+}
+.g2_empleado_titulo::after,.g2_empleado_titulo::before{
+    color: #ffff;
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color: currentcolor;
+   top:0.8em;
+
+   
+
+}
+
+.g2_empleado_titulo::before{
+    left: -80px;
+    
+
+}
+
+.g2_empleado_titulo::after{
+    right: -80px;
+
+     
+}
+
+.g2_empleado_menu,
+.menu ul{
+
+    /* Con esto se le quita las viñetas*/
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+
+.g2_empleado_menu{
+    clear: left;
+    background: #0B3861;
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+.g2_empleado_menu > li{
+    float: left;
+    
+}
+
+
+.g2_empleado_menu li{
+    position: relative;
+}
+
+.g2_empleado_menu a{
+    color: #eee;
+    /* Quita el subrayado*/
+    text-decoration: none;
+    display: block;
+    padding: 0.6em 85px;
+    white-space: nowrap;
+}
+
+.g2_empleado_menu li:hover{
+    background: rgba(0, 0, 0, .5)
+}
+
+.g2_empleado_menu li:hover > ul{
+    display: block;
+    background: #0B3861;
+
+}
+
+.g2_empleado_menu li > ul{
+    position: absolute;
+    width: 290px;
+    display: none;
+    
+}
+
+.g2_empleado_menu ul ul{
+    top: 0;
+    left: 100%;
+
+
+}
+
+#g2_empleado_footer {
+  position: fixed;
+  padding-top: 4px;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background: #0B3861;
+  text-align: center;
+  font-size: 1.2em;
+  color: #eee;
+  font-style: monospace ;
+
+
+
+}
+
+#g2_empleado_footer p{
+    padding: 10px 0;
+}
+
+
+/*Cambiar*/
+
+#g2_empleado_main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+.g2_empleado_table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
