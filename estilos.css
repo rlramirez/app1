@@ -5,6 +5,7 @@ body{
 	font-family: arial;
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 #g3_body{
 	background: #fff;
 }
@@ -57,6 +58,388 @@ body{
 
 #g3_footer{
 	text-align: center;
+=======
+form.g6_form {
+  border: 3px solid #f1f1f1;
+}
+
+input.g6_user, .g6_psw {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button.g6_btnlogin {
+  background-color: #31bafd;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.g6_btnlogin:hover {
+  opacity: 0.8;
+}
+
+.g6_form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.g6_contenedor {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.g6_avatar {
+  width: 23%;
+  border-radius: 50%;
+}
+
+.g6_contenedor {
+  padding: 16px;
+}
+
+span.g6_psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.g6_imgauto{
+  width: 100px;
+  height: 50px;
+}
+
+.g6_tablav {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.g6_td, #g6_th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.g6_tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.g6_blue
+{
+    background: #2196f3;
+}
+
+/* Circle behind */
+.g6_circleBehind a:before, .g6_circleBehind a:after
+{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #0277bd;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.g6_circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+.g6_circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.g6_circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+.g6_container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.g6_container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.g6_logo
+{
+    font-family: Raleway;
+    margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+=======
+<<<<<<< HEAD
+	margin:0;
+}
+
+.g5_divider{
+	background-color: cyan ;
+}
+
+.g5_title{
+	color: darkslateblue;
+	text-align: center;
+}
+
+.g5_form_reserva label{
+	font-weight: bold;
+	padding: 1em;
+}
+
+.g5_form_reserva label,.g5_form_reserva input{
+	margin: 14px 0px;
+
+}
+
+.g5_form_reserva input{
+	padding: 6px;
+}
+
+.g5_form_reserva select{
+	padding: 6px;
+}
+
+.g5_form_reserva button{
+	padding: 12px;
+	background-color: darkkhaki;
+}
+
+.g5_calendario, th, td {
+	border: 1px solid black;
+	padding: 18px;
+	text-align: center;
+}
+
+.g5_fecha_elegida{
+	background-color: cyan;
+	cursor: pointer;
+}
+
+.g5_title_calendario{
+	background-color: bisque;
+}
+=======
+<<<<<<< HEAD
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.g2_empleado_body{
+  margin: 0;
+  padding: 0;
+  background-image: url("HNCK0360.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+
+.g2_empleado_titulo_car{
+   float: left; 
+   font-family: 'Charm', cursive;
+   font-size: 34px;
+ 
+}
+.g2_empleado_usuario_p{
+    
+    float: right;
+    margin-top: 10px;
+    font-size: 25px;
+     font-family: 'Charm', cursive;
+    
+    
+}
+
+.g2_empleado_titulo{
+    
+    display: inline-block;
+    position: relative;
+    font-size: 2.5em;
+    left: 42%;
+    font-family: 'Charm', cursive;
+    color: #ffff;
+    
+}
+.g2_empleado_titulo::after,.g2_empleado_titulo::before{
+    color: #ffff;
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color: currentcolor;
+   top:0.8em;
+
+   
+
+}
+
+.g2_empleado_titulo::before{
+    left: -80px;
+    
+
+}
+
+.g2_empleado_titulo::after{
+    right: -80px;
+
+     
+}
+
+.g2_empleado_menu,
+.menu ul{
+
+    /* Con esto se le quita las viñetas*/
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+
+.g2_empleado_menu{
+    clear: left;
+    background: #0B3861;
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+.g2_empleado_menu > li{
+    float: left;
+    
+}
+
+
+.g2_empleado_menu li{
+    position: relative;
+}
+
+.g2_empleado_menu a{
+    color: #eee;
+    /* Quita el subrayado*/
+    text-decoration: none;
+    display: block;
+    padding: 0.6em 85px;
+    white-space: nowrap;
+}
+
+.g2_empleado_menu li:hover{
+    background: rgba(0, 0, 0, .5)
+}
+
+.g2_empleado_menu li:hover > ul{
+    display: block;
+    background: #0B3861;
+
+}
+
+.g2_empleado_menu li > ul{
+    position: absolute;
+    width: 290px;
+    display: none;
+    
+}
+
+.g2_empleado_menu ul ul{
+    top: 0;
+    left: 100%;
+
+
+}
+
+#g2_empleado_footer {
+  position: fixed;
+  padding-top: 4px;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background: #0B3861;
+  text-align: center;
+  font-size: 1.2em;
+  color: #eee;
+  font-style: monospace ;
+
+
+
+}
+
+#g2_empleado_footer p{
+    padding: 10px 0;
+}
+
+
+/*Cambiar*/
+
+#g2_empleado_main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+.g2_empleado_table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+>>>>>>> 9121c457ebe27c811f915663acdbc41107c1e842
 =======
 <<<<<<< HEAD
 }
@@ -151,5 +534,12 @@ footer{
 footer h5{
 	padding: 1em;
 >>>>>>> 0ae58c705fe1a320c1b8f8afb66358b5803c2666
+<<<<<<< HEAD
 >>>>>>> 53380bffe69f67996c741e0b2a4840f44529f2bd
 }
+=======
+}
+>>>>>>> 53380bffe69f67996c741e0b2a4840f44529f2bd
+>>>>>>> 71e54854a150e1e0e6877d2be9adf445b9406c29
+>>>>>>> abb9c4763e2aeb7aaa70090c14af35681275fb61
+>>>>>>> 9121c457ebe27c811f915663acdbc41107c1e842
