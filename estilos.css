@@ -2,3 +2,56 @@ body{
 	background: #ccc;
 	font-family: arial;
 }
+#g3_body{
+	background: #fff;
+}
+
+#g3_ofertas h4{
+	color: red;
+}
+
+#g3_ofertas p{
+	text-align: justify;
+	padding-right: 40px;
+}
+
+#g3_ofertas{
+	margin-left: 70px;
+}
+
+#g3_oferta{
+	display: inline-block;
+	width: 33%;
+	text-align: left;
+	box-sizing: border-box;
+
+}
+
+#g3_auto{
+	display: inline-block;
+	width: 24%;
+	text-align: left;
+	box-sizing: border-box;
+
+}
+
+
+#g3_h2{
+	text-align: center;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+
+#g3_antes{
+	text-decoration: line-through;
+}
+
+#g3_autos{
+	margin-left: 80px;
+	margin-top: 50px;
+	border-top: dashed 2px;
+}
+
+#g3_footer{
+	text-align: center;
+}
